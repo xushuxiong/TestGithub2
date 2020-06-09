@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="TestGithub1.aspx" />
+    <Content Include="TestGithub2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="TestGithub1.aspx.designer.cs">
       <DependentUpon>TestGithub1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestGithub2.aspx.cs">
+      <DependentUpon>TestGithub2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestGithub2.aspx.designer.cs">
+      <DependentUpon>TestGithub2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
